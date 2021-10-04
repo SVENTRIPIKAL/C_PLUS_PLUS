@@ -1,4 +1,4 @@
-// CSCI - 1370: Calculating the Area of a Triangle
+// CSCI - 1370: CALCULATING THE AREA OF A TRIANGLE
 // Program asks for lengths of three sides for a
 // triangle and returns the area, as well as
 // its type: Equilateral, Right, or Isosceles.
