@@ -17,8 +17,8 @@
 *                            -input range of numbers
 *                            -computer guesses until finished
 *                            -COMPUTER SHOULD WIN WITHIN 10 TRIES
-*  
-**************************************************************************************/
+* 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #include <iostream>
 #include <iomanip>
