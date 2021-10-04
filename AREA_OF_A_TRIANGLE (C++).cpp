@@ -10,57 +10,7 @@
 using namespace std ;
 
 
-// function prototypes
-double calculate_semiPerimeter( double xSide_a, double xSide_b,
-                                    double xSide_c ) ;
-
-double calculate_area( double xSide_a, double xSide_b,
-                        double xSide_c, double x_semiPerimeter ) ;
-
-void display_result(double xSide_a, double xSide_b,
-                        double xSide_c, double x_area ) ;
-
-
-
-int main()      // begin main
-{
-    double side_a, side_b, side_c ; // contain triangle side lengths
-    double semiPerimeter ;          // contains triangle semiperimeter
-    double area ;                   // contains area of triangle
-    
-    
-    cout << "\n========================[ WELCOME ]==========="
-                "=============\n\n" ;
-    
-    // prompt user
-    cout << "\t        To calculate the Area of a Triangle,\n"
-            "\t         please enter three side lengths:\n\t\t\t\t\t\t   " ;
-    
-    // receive user input
-    cin >> side_a >> side_b >> side_c ;
-    
-    
-    // calculate semiperimeter
-    semiPerimeter = calculate_semiPerimeter( side_a, side_b, side_c ) ;
-    
-    // calculate area
-    area = calculate_area( side_a, side_b, side_c, semiPerimeter ) ;
-    
-    // display results to screen
-    display_result( side_a, side_b, side_c, area ) ;
-    
-    
-    cout << "=============================================="
-                "=============\n\n" ;
-    
-    
-    return 0 ; // indicates successful termination
-    
-}   // end main
-
-
-
-// =========================[ FUNCTIONS ]============================
+//============================================================[ USER-DEFINED FUNCTIONS ]
 
 // calculates and returns semiperimeter of triangle
 double calculate_semiPerimeter( double xSide_a, double xSide_b,
@@ -154,3 +104,42 @@ void display_result(double xSide_a, double xSide_b,
     }
     
 }   // end function
+
+
+//==============================================================================[ MAIN ]
+
+int main()
+{
+    double side_a, side_b, side_c ;         // contain triangle side lengths
+    double semiPerimeter ;                  // contains triangle semiperimeter
+    double area ;                           // contains area of triangle
+    
+    
+    cout << "\n========================[ WELCOME ]==========="
+                "=============\n\n" ;
+    
+    // prompt user
+    cout << "\t        To calculate the Area of a Triangle,\n"
+            "\t         please enter three side lengths:\n\t\t\t\t\t\t   " ;
+    
+    // receive user input
+    cin >> side_a >> side_b >> side_c ;
+    
+    
+    // calculate semiperimeter
+    semiPerimeter = calculate_semiPerimeter( side_a, side_b, side_c ) ;
+    
+    // calculate area
+    area = calculate_area( side_a, side_b, side_c, semiPerimeter ) ;
+    
+    // display results to screen
+    display_result( side_a, side_b, side_c, area ) ;
+    
+    
+    cout << "=============================================="
+                "=============\n\n" ;
+    
+    
+    return 0 ; // indicates successful termination
+    
+}   // end main
