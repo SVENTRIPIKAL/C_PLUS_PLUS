@@ -9,7 +9,6 @@
 #include <cmath>
 using namespace std ;
 
-
 //============================================================[ USER-DEFINED FUNCTIONS ]
 
 // calculates and returns semiperimeter of triangle
@@ -104,7 +103,6 @@ void display_result(double xSide_a, double xSide_b,
     }
     
 }   // end function
-
 
 //==============================================================================[ MAIN ]
 
