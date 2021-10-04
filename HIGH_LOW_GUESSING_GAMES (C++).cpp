@@ -6,7 +6,7 @@
 *  2) MIND READER -- objective of the game is reversed;
 *  computer guesses user's secret number.
 *  
-*           GAME#1 (HI-LOW): SIMPLE / COMPLEX / MY OWN
+*           GAME#1 (HIGH-LOW): SIMPLE / COMPLEX / MY OWN
 *                            -generate random #1-100
 *                            -ask user to guess number
 *                            -return 'high' || 'low' until correct
