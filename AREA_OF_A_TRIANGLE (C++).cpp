@@ -1,5 +1,5 @@
 // CSCI: 1370 - Calculating the Area of a Triangle
-// Program asks for three-side lengths of a
+// Program asks for lengths of three sides for a
 // triangle and returns the area, as well as
 // its type: Equilateral, Right, or Isosceles.
 
