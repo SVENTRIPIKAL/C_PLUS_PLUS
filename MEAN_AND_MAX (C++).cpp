@@ -2,7 +2,7 @@
 *   
 *   Program takes in positive integers and outputs the max number,
 *   as well as, the total average--Negative integers end the input loop.
-*   Challenge: Must create user-defined functions to return intended numbers.
+*   Note: Must create user-defined functions to return intended numbers.
 *   
 *                        [ EXAMPLE ]
 *   INPUT:        15, 20, 0, 3, -1 ]
