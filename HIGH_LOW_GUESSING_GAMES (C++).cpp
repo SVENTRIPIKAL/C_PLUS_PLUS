@@ -4,7 +4,7 @@
 *  1) HIGH LOW -- the user must guess the computer's
 *  secret number; user may choose the difficulty of the game.
 *  2) MIND READER -- objective of the game is reversed;
-*  computer guesses your secret number.
+*  computer guesses user's secret number.
 *  
 *           GAME#1 (HI-LOW): SIMPLE / COMPLEX / MY OWN
 *                            -generate random #1-100
