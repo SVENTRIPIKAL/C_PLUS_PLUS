@@ -1,5 +1,5 @@
 //================================[ MY FUNCTIONS ]=============================\\
-
+//  document is used with "NOTHING BUT FUNCTIONS" program to export functions 
 //===================================================================[ ADDITION ]
 // RETURNS SUM OF TWO NUMBERS
 double add( double x, double y )
