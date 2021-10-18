@@ -1,6 +1,6 @@
 /*  EMPLOYEE DATABASE
 *   
-*   Program reads employee data from an 'employee.txt'
+*   Program reads employee data from 'employee.txt'
 *   file and runs various functions to manipulate &
 *   print data to the screen.
 *   
