@@ -1,4 +1,4 @@
-/*  SPELL-CHECKER
+/*  SPELL-CHECK
 *   
 *   Program reads from 'largeDictionary.txt' file
 *   and checks if a user's input is spelled correctly,
